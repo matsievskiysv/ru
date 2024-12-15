@@ -2,9 +2,11 @@
 <addons>
   <addon id="repository.GRecoTM" name=" GRecoTM Repository" version="2.2" provider-name="GRecoTM">
     <extension point="xbmc.addon.repository" name="GRecoTM Repository">
-      <info compressed="false">http://grrepo.grecotm.com/Plugins/addons.xml</info>
-      <checksum>http://grrepo.grecotm.com/Plugins/addons.xml.md5</checksum>
-      <datadir zip="true">http://grrepo.grecotm.com/Plugins/</datadir>
+      <dir>
+        <info compressed="false">http://grrepo.grecotm.com/Plugins/addons.xml</info>
+        <checksum>http://grrepo.grecotm.com/Plugins/addons.xml.md5</checksum>
+        <datadir zip="true">http://grrepo.grecotm.com/Plugins/</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary>GRecoTM Repository</summary>
@@ -204,9 +206,11 @@
       <platform>all</platform>
     </extension>
     <extension point="xbmc.addon.repository" name="srg70 repository">
-      <info compressed="false">https://github.com/srg70/kodi_repo/raw/master/repo/addons.xml</info>
-      <checksum>https://github.com/srg70/kodi_repo/raw/master/repo/addons.xml.md5</checksum>
-      <datadir zip="true">https://github.com/srg70/kodi_repo/raw/master/repo</datadir>
+      <dir>
+        <info compressed="false">https://github.com/srg70/kodi_repo/raw/master/repo/addons.xml</info>
+        <checksum>https://github.com/srg70/kodi_repo/raw/master/repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/srg70/kodi_repo/raw/master/repo</datadir>
+      </dir>
     </extension>
   </addon>
   <addon id="script.module.requests" name="requests" version="2.12.4" provider-name="kennethreitz, beenje">
@@ -228,9 +232,11 @@
   </addon>
   <addon id="repository.myshows.me" name="MyShows.me Kodi Repo" version="1.0.7" provider-name="DiMartino">
     <extension point="xbmc.addon.repository" name="MyShows.me Kodi Repo">
-      <info compressed="true">https://raw.github.com/DiMartinoX/repository.myshows.me/master/repo/addons.xml</info>
-      <checksum>https://raw.github.com/DiMartinoX/repository.myshows.me/master/repo/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.github.com/DiMartinoX/repository.myshows.me/master/repo/</datadir>
+      <dir>
+        <info compressed="true">https://raw.github.com/DiMartinoX/repository.myshows.me/master/repo/addons.xml</info>
+        <checksum>https://raw.github.com/DiMartinoX/repository.myshows.me/master/repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.github.com/DiMartinoX/repository.myshows.me/master/repo/</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary>Устанавливайте дополнения из репозитория MyShows.me</summary>
@@ -264,9 +270,11 @@
   </addon>
   <addon id="repository.vlmaksime" name="vl.maksime Add-on repository" version="2.0.0" provider-name="vl.maksime">
     <extension point="xbmc.addon.repository">
-      <info>https://vlmaksime.github.io/repository.vlmaksime/addons.xml</info>
-      <checksum>https://vlmaksime.github.io/repository.vlmaksime/addons.xml.md5</checksum>
-      <datadir zip="true">https://vlmaksime.github.io/repository.vlmaksime/releases/</datadir>
+      <dir>
+        <info>https://vlmaksime.github.io/repository.vlmaksime/addons.xml</info>
+        <checksum>https://vlmaksime.github.io/repository.vlmaksime/addons.xml.md5</checksum>
+        <datadir zip="true">https://vlmaksime.github.io/repository.vlmaksime/releases/</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary lang="en">Install Add-ons from vl.maksime</summary>
@@ -278,9 +286,11 @@
   </addon>
   <addon id="repository.magnetic.mirror" name="[COLOR FFFFD800]Magnetic[/COLOR] Mirror Repository" version="0.1.2" provider-name="mancuniancol">
     <extension point="xbmc.addon.repository" name="Magnetic Repository">
-      <info>https://svn.riouxsvn.com/magnetic/addons.xml</info>
-      <checksum>https://svn.riouxsvn.com/magnetic//addons.xml.md5</checksum>
-      <datadir zip="true">https://svn.riouxsvn.com/magnetic/</datadir>
+      <dir>
+        <info>https://svn.riouxsvn.com/magnetic/addons.xml</info>
+        <checksum>https://svn.riouxsvn.com/magnetic//addons.xml.md5</checksum>
+        <datadir zip="true">https://svn.riouxsvn.com/magnetic/</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary>Magnetic Module and Parsers</summary>
@@ -294,9 +304,11 @@
   </addon>
   <addon id="repository.mnn" name="MNN Xbmc Add-ons" version="1.0.3" provider-name="MazurokNN">
     <extension point="xbmc.addon.repository" name="MNN Xbmc Add-ons">
-      <info compressed="false">https://github.com/snakefishh/mnn-xbmc-repo/raw/master/addons.xml</info>
-      <checksum>https://github.com/snakefishh/mnn-xbmc-repo/raw/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://github.com/snakefishh/mnn-xbmc-repo/raw/master/</datadir>
+      <dir>
+        <info compressed="false">https://github.com/snakefishh/mnn-xbmc-repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/snakefishh/mnn-xbmc-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/snakefishh/mnn-xbmc-repo/raw/master/</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary>Install Add-ons from MNN Add-on Repository</summary>
@@ -310,9 +322,11 @@
       <import addon="xbmc.addon" version="12.0.0" />
     </requires>
     <extension point="xbmc.addon.repository" name="XXTREP XBMC Add-ons">
-      <info compressed="false">https://github.com/taifxx/xxtrep/raw/master/addons.xml</info>
-      <checksum>https://github.com/taifxx/xxtrep/raw/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://github.com/taifxx/xxtrep/raw/master/</datadir>
+      <dir>
+        <info compressed="false">https://github.com/taifxx/xxtrep/raw/master/addons.xml</info>
+        <checksum>https://github.com/taifxx/xxtrep/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/taifxx/xxtrep/raw/master/</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary>Install Add-ons from XXTREP Add-on Repository</summary>
@@ -811,9 +825,11 @@
       <platform>all</platform>
     </extension>
     <extension point="xbmc.addon.repository" name="Vd's repository">
-      <info compressed="false">https://bitbucket.org/vadyur/kodi_repo/raw/master/repo/addons.xml</info>
-      <checksum>https://bitbucket.org/vadyur/kodi_repo/raw/master/repo/addons.xml.md5</checksum>
-      <datadir zip="true">https://bitbucket.org/vadyur/kodi_repo/raw/master/repo</datadir>
+      <dir>
+        <info compressed="false">https://bitbucket.org/vadyur/kodi_repo/raw/master/repo/addons.xml</info>
+        <checksum>https://bitbucket.org/vadyur/kodi_repo/raw/master/repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://bitbucket.org/vadyur/kodi_repo/raw/master/repo</datadir>
+      </dir>
     </extension>
   </addon>
   <addon id="plugin.video.1tv-latest-news" name="1tv Channel" version="1.1.0" provider-name="Dmitry Sandalov">
@@ -924,9 +940,11 @@ Audio sources are
   </addon>
   <addon id="repository.kodil" name=".[COLOR blue].Kodil [/COLOR][COLOR white] Repository [/COLOR]" version="1.3" provider-name="kodil">
     <extension point="xbmc.addon.repository" name=".Kodil  Repository ">
-      <info compressed="false">https://raw.githubusercontent.com/kodil/kodil/master/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/kodil/kodil/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/kodil/kodil/master/repo</datadir>
+      <dir>
+        <info compressed="false">https://raw.githubusercontent.com/kodil/kodil/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/kodil/kodil/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/kodil/kodil/master/repo</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary>kodisrael repository</summary>
@@ -940,9 +958,11 @@ Audio sources are
       <import addon="xbmc.addon" version="12.0.0" />
     </requires>
     <extension point="xbmc.addon.repository" name="Merlin Repository">
-      <info compressed="false">http://mrepo.uk/merlinrepo/addons.xml</info>
-      <checksum>http://mrepo.uk/merlinrepo/addons.xml.md5</checksum>
-      <datadir zip="true">http://mrepo.uk/merlinrepo/addons/</datadir>
+      <dir>
+        <info compressed="false">http://mrepo.uk/merlinrepo/addons.xml</info>
+        <checksum>http://mrepo.uk/merlinrepo/addons.xml.md5</checksum>
+        <datadir zip="true">http://mrepo.uk/merlinrepo/addons/</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary>Host Of Add-Ons And Repositories</summary>
@@ -985,9 +1005,11 @@ Audio sources are
   </addon>
   <addon id="repository.rvlad1987" name="RVlad1987 Kodi Add-ons" version="1.0.1" provider-name="rvlad1987">
     <extension point="xbmc.addon.repository" name="RVlad1987 Kodi Add-ons">
-      <info compressed="false">https://raw.githubusercontent.com/rvlad1987/repository.rvlad1987.xbmc-addons/master/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/rvlad1987/repository.rvlad1987.xbmc-addons/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/rvlad1987/repository.rvlad1987.xbmc-addons/master/repo</datadir>
+      <dir>
+        <info compressed="false">https://raw.githubusercontent.com/rvlad1987/repository.rvlad1987.xbmc-addons/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/rvlad1987/repository.rvlad1987.xbmc-addons/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/rvlad1987/repository.rvlad1987.xbmc-addons/master/repo</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary>Дополнения из репозитория rvlad1987</summary>
@@ -1001,9 +1023,11 @@ Audio sources are
       <import addon="xbmc.addon" version="12.0.0" />
     </requires>
     <extension point="xbmc.addon.repository" name="Const Kodi Add-ons">
-      <info compressed="false">https://github.com/const586/const-kodi-repo/raw/master/addons/addons.xml</info>
-      <checksum>https://github.com/const586/const-kodi-repo/raw/master/addons/addons.xml.md5</checksum>
-      <datadir zip="true">https://github.com/const586/const-kodi-repo/raw/master/addons</datadir>
+      <dir>
+        <info compressed="false">https://github.com/const586/const-kodi-repo/raw/master/addons/addons.xml</info>
+        <checksum>https://github.com/const586/const-kodi-repo/raw/master/addons/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/const586/const-kodi-repo/raw/master/addons</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary>Install Add-ons from const Add-on Repository</summary>
@@ -1041,9 +1065,11 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </addon>
   <addon id="repository.dandy.kodi" name="Dandy's Kodi Repository" version="1.0.5" provider-name="dandy">
     <extension point="xbmc.addon.repository" name="Dandy Kodi Add-ons Repository">
-      <info compressed="false">https://raw.github.com/dandygithub/kodi/master/addons/addons.xml</info>
-      <checksum>https://raw.github.com/dandygithub/kodi/master/addons/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.github.com/dandygithub/kodi/master/addons/zip/</datadir>
+      <dir>
+        <info compressed="false">https://raw.github.com/dandygithub/kodi/master/addons/addons.xml</info>
+        <checksum>https://raw.github.com/dandygithub/kodi/master/addons/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.github.com/dandygithub/kodi/master/addons/zip/</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary>Install Add-ons by Dandy add-on repository</summary>
@@ -1517,9 +1543,11 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </addon>
   <addon id="repository.xbmc-israel" name=".[COLOR blue]XBMC Israeli [/COLOR][COLOR white] Streaming Sites[/COLOR]" version="1.0.4" provider-name="cubicle-vdo">
     <extension point="xbmc.addon.repository" name="XBMC Israeli streaming repo for streaming sites">
-      <info compressed="false">https://raw.githubusercontent.com/cubicle-vdo/xbmc-israel/master/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/cubicle-vdo/xbmc-israel/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/cubicle-vdo/xbmc-israel/master/repo</datadir>
+      <dir>
+        <info compressed="false">https://raw.githubusercontent.com/cubicle-vdo/xbmc-israel/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/cubicle-vdo/xbmc-israel/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/cubicle-vdo/xbmc-israel/master/repo</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary>XBMC Israeli Streaming Sites</summary>
@@ -1575,10 +1603,12 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
       <import addon="xbmc.addon" version="12.0.0" />
     </requires>
     <extension point="xbmc.addon.repository" name="Uzzer Kodi Addons">
-      <info compressed="false">https://notabug.org/d3c_d3v/AddonRepo/raw/master/_repo/addons.xml</info>
-      <checksum>https://notabug.org/d3c_d3v/AddonRepo/raw/master/_repo/addons.xml.md5</checksum>
-      <datadir zip="true">https://notabug.org/d3c_d3v/AddonRepo/raw/master/_repo/</datadir>
-      <hashes>false</hashes>
+      <dir>
+        <info compressed="false">https://notabug.org/d3c_d3v/AddonRepo/raw/master/_repo/addons.xml</info>
+        <checksum>https://notabug.org/d3c_d3v/AddonRepo/raw/master/_repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://notabug.org/d3c_d3v/AddonRepo/raw/master/_repo/</datadir>
+        <hashes>false</hashes>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary>Repo for my addons</summary>
@@ -1588,9 +1618,11 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </addon>
   <addon id="repository.kodi-senyor" name="kodi senyor repository" version="1.2.1" provider-name="kodi senyor">
     <extension point="xbmc.addon.repository" name="kodi senyor repository">
-      <info compressed="false">https://github.com/kobiko3030/repository.kodisenyor/raw/master/addons.xml</info>
-      <checksum>https://github.com/kobiko3030/repository.kodisenyor/raw/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips/</datadir>
+      <dir>
+        <info compressed="false">https://github.com/kobiko3030/repository.kodisenyor/raw/master/addons.xml</info>
+        <checksum>https://github.com/kobiko3030/repository.kodisenyor/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/kobiko3030/repository.kodisenyor/raw/master/Zips/</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary lang="en">kodi-senyor.co.il repo</summary>
@@ -1613,9 +1645,11 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </addon>
   <addon id="repository.silhouette" name="Silhouette XBMC Add-ons" version="2.0.4" provider-name="Silhouette">
     <extension point="xbmc.addon.repository" name="Silhouette XBMC Add-ons">
-      <info compressed="false">https://raw.githubusercontent.com/silhouette2022/kodi/master/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/silhouette2022/kodi/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/silhouette2022/kodi/master/repo</datadir>
+      <dir>
+        <info compressed="false">https://raw.githubusercontent.com/silhouette2022/kodi/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/silhouette2022/kodi/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/silhouette2022/kodi/master/repo</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary>Install Add-ons from Silhouette Add-on Repository</summary>
@@ -1635,16 +1669,20 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
       <platform>all</platform>
     </extension>
     <extension point="xbmc.addon.repository" name="romanvm repository">
-      <info compressed="false">http://romanvm.github.io/kodi_repo/repo/addons.xml</info>
-      <checksum>http://romanvm.github.io/kodi_repo/repo/addons.xml.md5</checksum>
-      <datadir zip="true">http://romanvm.github.io/kodi_repo/repo</datadir>
+      <dir>
+        <info compressed="false">http://romanvm.github.io/kodi_repo/repo/addons.xml</info>
+        <checksum>http://romanvm.github.io/kodi_repo/repo/addons.xml.md5</checksum>
+        <datadir zip="true">http://romanvm.github.io/kodi_repo/repo</datadir>
+      </dir>
     </extension>
   </addon>
   <addon id="repository.hal9000" name="HAL9000 Add-on Repository" version="1.0.1" provider-name="HAL9000">
     <extension point="xbmc.addon.repository" name="HAL9000 Add-on Repository">
-      <info compressed="false">https://raw.githubusercontent.com/xbmc-addon/repository.hal9000/master/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/xbmc-addon/repository.hal9000/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/xbmc-addon/repository.hal9000/master/repo</datadir>
+      <dir>
+        <info compressed="false">https://raw.githubusercontent.com/xbmc-addon/repository.hal9000/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/xbmc-addon/repository.hal9000/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/xbmc-addon/repository.hal9000/master/repo</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary lang="en">Install HAL9000 Addons</summary>
@@ -1769,9 +1807,11 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </addon>
   <addon id="repository.virserg" name="Virserg Repository" version="1.0.0" provider-name="Virserg">
     <extension point="xbmc.addon.repository" name="Virserg Repository">
-      <info compressed="false">https://raw.githubusercontent.com/virserg/kodirepo/master/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/virserg/kodirepo/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/virserg/kodirepo/master/zips</datadir>
+      <dir>
+        <info compressed="false">https://raw.githubusercontent.com/virserg/kodirepo/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/virserg/kodirepo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/virserg/kodirepo/master/zips</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary lang="en">Install Addons</summary>
@@ -1901,10 +1941,12 @@ WebUI: http://ip_box:6878/webui/app/WEBUITOKEN/server
       <import addon="xbmc.addon" version="12.0.0" />
     </requires>
     <extension point="xbmc.addon.repository" name="TIDAL2 Addons by arneson">
-      <info compressed="false">https://github.com/arnesongit/repository.arneson/raw/master/addons.xml</info>
-      <checksum>https://github.com/arnesongit/repository.arneson/raw/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://github.com/arnesongit/repository.arneson/raw/master</datadir>
-      <hashes>false</hashes>
+      <dir>
+        <info compressed="false">https://github.com/arnesongit/repository.arneson/raw/master/addons.xml</info>
+        <checksum>https://github.com/arnesongit/repository.arneson/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/arnesongit/repository.arneson/raw/master</datadir>
+        <hashes>false</hashes>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary>Install TIDAL2 Addons by arneson</summary>
@@ -2224,9 +2266,11 @@ WebUI: http://ip_box:6878/webui/app/WEBUITOKEN/server
   </addon>
   <addon id="repository.kodi.yatse.tv" name="Yatse Kodi Add-on repository" version="1.0.1" provider-name="Yatse">
     <extension point="xbmc.addon.repository" name="Yatse Kodi Add-on repository">
-      <info compressed="false">https://raw.githubusercontent.com/Tolriq/repository.yatse.kodi/master/zips/addons.xml</info>
-      <checksum>https://raw.githubusercontent.com/Tolriq/repository.yatse.kodi/master/zips/addons.xml.md5</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/Tolriq/repository.yatse.kodi/master/zips/</datadir>
+      <dir>
+        <info compressed="false">https://raw.githubusercontent.com/Tolriq/repository.yatse.kodi/master/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Tolriq/repository.yatse.kodi/master/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Tolriq/repository.yatse.kodi/master/zips/</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary lang="en">Yatse repository for Kodi helper addons</summary>
@@ -2531,9 +2575,11 @@ WebUI: http://ip_box:6878/webui/app/WEBUITOKEN/server
   </addon>
   <addon id="repository.seppius" name="Seppius XBMC Add-ons" version="1.0.1" provider-name="seppius">
     <extension point="xbmc.addon.repository" name="Seppius XBMC Add-ons">
-      <info compressed="false">https://github.com/seppius-xbmc-repo/ru/raw/master/addons.xml</info>
-      <checksum>https://github.com/seppius-xbmc-repo/ru/raw/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://github.com/seppius-xbmc-repo/ru/raw/master/</datadir>
+      <dir>
+        <info compressed="false">https://github.com/matsievskiysv/ru/raw/master/addons.xml</info>
+        <checksum>https://github.com/matsievskiysv/ru/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/matsievskiysv/ru/raw/master/</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary>Install Add-ons from RUS Add-on Repository</summary>
@@ -2547,9 +2593,11 @@ WebUI: http://ip_box:6878/webui/app/WEBUITOKEN/server
   </addon>
   <addon id="repository.dvor85" name="dvor85 XBMC Add-ons" version="1.0.0" provider-name="dvor85">
     <extension point="xbmc.addon.repository" name="dvor85 XBMC Add-ons">
-      <info compressed="false">https://github.com/dvor85/kodi.repo/raw/master/addons.xml</info>
-      <checksum>https://github.com/dvor85/kodi.repo/raw/master/addons.xml.md5</checksum>
-      <datadir zip="true">https://github.com/dvor85/kodi.repo/raw/master/</datadir>
+      <dir>
+        <info compressed="false">https://github.com/dvor85/kodi.repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/dvor85/kodi.repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/dvor85/kodi.repo/raw/master/</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary>Install Add-ons from RUS Add-on Repository</summary>
@@ -2592,9 +2640,11 @@ WebUI: http://ip_box:6878/webui/app/WEBUITOKEN/server
   </addon>
   <addon id="repository.evgen_dev" name="Evgen_dev XBMC Add-ons" version="2.0.0" provider-name="evgen_dev">
     <extension point="xbmc.addon.repository" name="Evgen_dev XBMC Add-ons">
-      <info compressed="false">https://raw.githubusercontent.com/evgen-dev/repository.evgen_dev.xbmc-addons/master/addons.xml?v=1</info>
-      <checksum>https://raw.githubusercontent.com/evgen-dev/repository.evgen_dev.xbmc-addons/master/addons.xml.md5?v=1</checksum>
-      <datadir zip="true">https://raw.githubusercontent.com/evgen-dev/repository.evgen_dev.xbmc-addons/master/repo</datadir>
+      <dir>
+        <info compressed="false">https://raw.githubusercontent.com/evgen-dev/repository.evgen_dev.xbmc-addons/master/addons.xml?v=1</info>
+        <checksum>https://raw.githubusercontent.com/evgen-dev/repository.evgen_dev.xbmc-addons/master/addons.xml.md5?v=1</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/evgen-dev/repository.evgen_dev.xbmc-addons/master/repo</datadir>
+      </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
       <summary>Дополнения из репозитория evgen_dev</summary>
